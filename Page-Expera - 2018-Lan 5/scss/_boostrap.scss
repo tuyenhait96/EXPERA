@@ -1,0 +1,29 @@
+.f-img{
+	height: 86px;
+}
+
+@media screen and (max-width:1024px){
+	.xngate {
+	    min-height: 75vh;
+	}
+}
+
+@media screen and (max-width:992px){
+	// .xinpot-r{
+	// 	width: 320px;
+	// }
+	// .item{
+	// 	width: 205px;
+	// }
+}
+@media screen and (max-width:767px){
+	.bg-partner .block {
+    	padding-right: 100px; 
+	}
+}
+
+@media screen and (max-width:692px){
+	.cover-xinpot{
+		margin-top: 130px;
+	}
+}

@@ -1,0 +1,23 @@
+.bg-main{
+	background-color: $color-p-nav;
+}
+aside, section{
+  	.h_offer{
+  		font-size: 36px;
+  		font-weight: bold;
+  		color: #ffffff;
+  		text-align: center;
+  	}
+  	.draw-border{
+  	width: 123px;
+  	height: 3px;
+		border: solid 5px #c3242b;
+		margin: 0 auto;
+  	}
+}
+
+
+.bg-offer{
+  margin-top: 110px; 
+  font-weight: 400;
+}
