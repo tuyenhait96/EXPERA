@@ -504,7 +504,20 @@ footer .footer-r {
     min-height: 75vh;
   }
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
+  header .container {
+    max-width: 100%;
+  }
+  header .fix-height {
+    height: auto;
+  }
+  header .btn-border-under {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 55px);
+  }
+}
+@media only screen and (max-width: 767px) {
   .bg-partner .block {
     padding-right: 100px;
   }
@@ -512,5 +525,19 @@ footer .footer-r {
 @media screen and (max-width: 692px) {
   .cover-xinpot {
     margin-top: 130px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-r {
+    display: block !important;
+  }
+  .footer-r .f-cover {
+    width: 50%;
+    float: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-r .f-cover {
+    width: 100%;
   }
 }
