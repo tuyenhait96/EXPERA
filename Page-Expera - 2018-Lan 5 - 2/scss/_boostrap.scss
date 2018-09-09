@@ -1,0 +1,201 @@
+.f-img{
+	height: 86px;
+}
+@media only screen and (max-width:1400px){
+	.max-img{
+		max-width: 100%;
+	}
+	#item-all{
+		font-size: 28px !important;
+		padding-top: 20px;
+	}
+
+	#item-smart{
+		font-size: 60px !important;
+	}
+	#item-in{
+		font-size: 20px !important;
+	}
+
+	#p-automate, #p-endless{
+    	font-size: 20px;
+    }
+}
+@media only screen and (max-width:1024px){
+	.max-img{
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar-light .navbar-toggler-icon{
+		background-image: url("../img/navigation-icon.png") !important;	
+		width: 40px; 
+		height: 40px;
+	}
+	header{
+		.container{
+			max-width: 100%;
+		}
+		.fix-height{
+			height: auto;
+			text-align: right;
+		}
+		.btn-border-under{
+			position: absolute;
+			top: 0;
+    		left: calc(50% - 55px); //
+			
+		}
+
+	}
+
+	.img{
+		height: 80px;
+	}
+
+	#item-all{
+		font-size: 28px !important;
+		padding-top: 20px;
+	}
+
+	#item-smart{
+		font-size: 50px !important;
+	}
+	#item-in{
+		font-size: 18px !important;
+	}
+
+	#p-MS{
+		font-size: 17px;
+	    text-align: justify;
+	    padding-top: 10px;
+	}
+	.xspera-logo{
+		height: 50px;
+	}
+	.h1-flexible{
+		font-size: 50px;
+	}
+	.p-endless,#p-automate{
+		font-size: 16px;
+	}
+
+	#item-quick{
+		font-size: 42px;
+	}
+}
+
+@media only screen and (max-width:767px){
+	#header{
+		height: auto;
+		overflow: hidden;
+		.img-responsive {
+    		transform: translateX(80px);
+		}
+	}
+	#cover-left, .right-img{
+		position: relative !important;
+	}
+	#cover-left{
+		top: unset !important;
+	}
+	// ---------------End : Header -----------------------
+	#p-MS{
+		font-size: 17px;
+	    text-align: justify;
+	    padding-top: 10px;
+	}
+	.bg-partner .block {
+    	padding-right: 100px; 
+	}
+	#xngate {
+		min-height: 80vh;
+	}
+	#mid-img{
+		text-align: center;
+	}
+	.xinpot-r{
+		text-align: right;
+    	padding-top: 30px;
+    	padding-right: 70px;
+	}
+	.btn-learn,.cover-underline-white{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.h1-flexible{
+		font-size: 40px;
+		margin-top: 50px;
+	}
+	 #p-endless {
+	    font-size: 15px;
+	}
+	.btnRed{
+		margin-top: 40px;
+	}
+	.underline-red,#underline {
+		width: 50px;
+	}
+	.max-img{
+		max-width: 50%;
+	}
+	#item-quick{
+		margin-top: 30px;
+	}
+	.btnWhite{
+		margin-top: 50px;
+	}
+	#footer-l {
+		text-align: center ;
+	}
+	.navbar-light .navbar-toggler-icon{
+		background-image: url("../img/navigation-icon.png") !important;	
+		width: 40px; 
+		height: 40px;
+	}
+	.width-left{
+		width: 50%;
+		float: left;
+	}
+	.p-final-l, .p-final-r{
+		font-size: 15px;
+	}
+}
+
+
+
+@media screen and (max-width:600px){
+	#footer-r{
+		display: block;
+		.f-cover{
+			width: 50%;
+			float: left;
+		}
+	}
+}
+@media only screen and (max-width:545px){
+	.width-left{
+		width: 100%;
+	}
+	.footer-final-r{
+		text-align: left;
+	}
+}
+@media only screen and (max-width:500px){
+	.item{
+		display: block;
+		width: 50%;
+	}
+}	
+@media only screen and (max-width:480px){
+	#footer-r{
+		.f-cover{
+			width: 100%;
+		}
+	}
+		#xngate {
+		min-height: 65vh;
+	}
+}
