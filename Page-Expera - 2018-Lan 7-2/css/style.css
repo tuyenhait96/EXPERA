@@ -1,0 +1,14 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../font/SourceSansPro-Regular.ttf);
+}
+body {
+  font-family: SourceSansPro;
+}
+
+.logo {
+  width: 113px;
+  height: 40px;
+  object-fit: contain;
+}
+
