@@ -1,0 +1,43 @@
+article{
+	height: 2180px;
+  	background-color: #242424;
+}
+.a-xngate,.a-xinbot{
+	margin-top: 70px;
+}
+.offer{
+	display: flex;
+	flex-direction: row;
+}
+.item{
+	width: 328px;
+	height: 220px;
+  	border-radius: 5px;
+  	background-color: #363636;
+	margin: 20px;
+}
+
+.offer{
+	.col-content{
+		width: 153px;
+  		height: 93px;
+		font-size: 24px;
+  		color: #9b9b9b;
+  		display: inline-block;
+  		margin: 17px 0 0 19px;
+	}
+	img{
+		    transform: translateX(40px);
+		    margin-top: -75px;
+	}
+	.btn-grey{
+		width: 138px;
+		height: 36px;
+		border-radius: 5px;
+		background-color: #4a4a4a;
+		border: none;
+		color: #979797;
+		margin: 33px 18px 21px 0;
+		float: right;
+	}
+}
