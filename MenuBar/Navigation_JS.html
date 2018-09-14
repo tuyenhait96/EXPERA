@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Bar Menu</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#slidebar{
+				position: fixed;
+				background-color: black;
+				width: 200px;
+				height:500px;
+				left: -200px;
+				transition: all 500ms ease;
+			}
+			#slidebar.active{
+				left: 0;
+			}
+			#slidebar ul li{
+				padding: 15px;
+				border-bottom: 1px solid #555;
+			} 
+			#slidebar ul li a{
+				color: white;
+				list-style: none;
+				text-decoration: none;		
+			}
+			#slidebar .toggle-btn{
+				position: absolute;
+				left: 230px;
+				top: 20px;
+			}
+
+			#slidebar .toggle-btn span{
+				display: block;
+				width: 30px;
+				height: 5px;
+				background-color: red;
+				margin: 5px;
+			}
+		</style>
+		<script>
+			function toggleSidebar(){
+				document.getElementById("slidebar").classList.toggle('active');
+			}
+		</script>
+	</head>
+	<body>
+		<div id="slidebar">
+			<div class="toggle-btn" onclick="toggleSidebar()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

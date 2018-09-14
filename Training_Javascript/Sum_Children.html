@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+	</head>
+	<body>
+		<script>
+		var k = prompt("Nhập k : ");	
+		var m = prompt("Nhập m : ");	
+		function sum(k, m) {
+			if (k < 0 || m < 1) {
+				alert('Nhập sai');
+			}
+			var arr = [];
+			var sum = 0;
+			for (var i = k; i <= m; i ++) {
+				sum += i;
+				arr.push(i);
+			}
+			for (var i = m - 1; i > k; i--) {
+				sum += i;
+				arr.push(i);
+			}
+			return {
+				sum: sum,
+				arr: arr
+			}
+		}
+		console.log(sum(k, m));
+		</script>
+
+	</body>
+</html>

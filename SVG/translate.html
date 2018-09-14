@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<style>
+	.icon-chat{
+		margin:0 auto;
+		animation:icon 10s ease-in-out infinite;
+	}
+
+	@keyframes icon
+	{
+		0%
+		{
+			transform: translateX(0);
+			opacity: 0;
+			
+		}
+		50%
+		{
+			transform: translateX(300px);
+			opacity: 0.6;
+		}
+		50%,100%
+		{
+			transform: translateX(500px);
+			opacity: 1;
+		}
+	}
+</style>
+<body>
+
+<svg width="400" height="110" >
+	<!-- <rect width="300" height="100"  x="25" y="100"  style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0);">
+		<animate attributeName="x" from="0" to="1000" dur="10s" fill="freeze" repeatCount="indefinite"/> 
+	</rect> -->
+	<img src="img/chat-symbol-2.svg" x="0" class="icon-chat" alt="icon>
+	<animate attributeName="x" from="0" to="300" dur="1s"  repeatCount="indefinite"/>
+	<!-- <animate attributeName = "x" from = "0" to = "500" dur ="10s" repeatCount="indefinite" /> -->
+</svg>
+ 
+			
+</style>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Navigation Menu Jquery</title>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+		</style>
+		<script>
+			$("#toggle").click(function() {
+				/* Act on the event */
+				$(this).toggleClass('on');
+				$(#resize).toggleClass("active");
+			});
+		</script>
+	</head>
+	<body>
+		<nav>
+			<span id="brand">
+				<a href="#">Brand</a>
+			</span>
+
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+
+			<div id="toggle">
+				<div class="span" id="one"></div>
+				<div class="span" id="two"></div>
+				<div class="span" id="three"></div>
+			</div>
+		</nav>
+
+		<div id="resize">
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<h1>Menu Bar</h1>
+		</div>
+	</body>
+</html>

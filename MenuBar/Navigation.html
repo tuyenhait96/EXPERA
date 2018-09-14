@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title></title>
+	<style>
+		nav{
+			text-align: right;
+		}
+		#menu ul li{
+			list-style: none;
+			float: left;
+			padding: 20px;
+			background-color:#55B460;
+		}
+		#menu ul li a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			
+		}
+		#list-4, #list-5, #list-6{
+			margin-top: 150px;
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#list-1").on('click', function() {
+				$("#list-4").css({
+					'display','block';
+				});
+				/* Act on the event */
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<nav id="menu">
+		<ul id="ul-1">
+			<li id="list-1"><a href="#">HOME</a></li>
+			<li id="list-2"><a href="#">ABOUT</a></li>
+			<li id="list-3"><a href="#">CONTACT</a></li>
+		</ul>
+
+		<ul id="ul-2">
+			<li id="list-4"><a href="#">HOME</a></li>
+			<li id="list-5"><a href="#">ABOUT</a></li>
+			<li id="list-6"><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+<script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
